@@ -1,0 +1,19 @@
+{
+	"__ver": "sys-auto:1",
+	"_id": "IE4rzPmmEei+ZwAaTWcOdQ",
+	"key": "app.geographical-zipcodes",
+	"major_version": 0,
+	"minor_version": 0,
+	"version":"0.0.0",
+	"build_config":{
+		"exclude":[
+			"User",
+			{
+				"condition" : {
+					"key" : "sys.user.preferences"
+				},
+				"class_name" : "Config"
+			}
+		]
+	}
+}
